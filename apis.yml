@@ -1,8 +1,28 @@
 aid: oak
 name: Oak
-description: 'Oak is a company surfaced as a portfolio company of crv and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Oak is an AI-native identity operating system that governs human, machine, and
+  AI-agent identities from a single platform. Its Identity Intelligence Layer
+  unifies identity data into a graph that serves as a foundational security
+  layer, paired with Agentic Identity governance for AI agents, a Connect Any
+  connector layer spanning on-premises, SaaS, cloud, and custom systems, and
+  White Glove enterprise onboarding services. Oak is an early-stage,
+  enterprise/sales-led identity-security company backed by CRV; it currently
+  exposes a customer login app but no public API, developer portal, or
+  documentation.
 url: https://raw.githubusercontent.com/api-evangelist/oak/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/699c31f14c21ca84334d5864/6a5757798982dd6532c4b7e4_Webclip.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Fintech
+- Identity
+- Security
+- Identity Governance
+- AI Agents
+- IAM
+- Cybersecurity
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +49,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.oak.id/
+- type: Login
+  url: https://app.oak.id/
+- type: PrivacyPolicy
+  url: https://www.oak.id/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/oak-identity-security-os/
+- type: DomainSecurity
+  url: security/oak-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
